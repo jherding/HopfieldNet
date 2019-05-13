@@ -2,7 +2,7 @@
 
 A small little GUI that lets you play around with a [Hopfield network](https://en.wikipedia.org/wiki/Hopfield_network) that can be trained with Hebbian learning. Training data can be easily created by drawing on a 16x16 pixel canvas.
 
-<img src="/srv/projects/HopfieldNet/screenshotGUI.png" alt="drawing" width="500"/>
+<img src="gui/screenshotGUI.png" alt="GUI" width="500"/>
 
 In brief, a Hopfield network is a fully connected network of binary threshold units (i.e., activation is either -1 or 1) with symmetric weights. Based on the given training data, the network just learns certain activation patterns - in this case by applying Hebbian learning. When presented with novel data, the activation of the network will converge to one of the learned activation patterns.
 
